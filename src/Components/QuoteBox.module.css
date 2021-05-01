@@ -49,3 +49,28 @@
 .buttonBackground {
   color: rgb(28, 238, 168);
 }
+
+/* Table View */
+@media (max-width: 768px) {
+  .quoteBox {
+    width: 450px;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 414px) {
+  .quoteBox {
+    width: 300px;
+  }
+}
+
+/* Less than mobile view */
+@media screen and (max-width: 300px) {
+  .quoteBox {
+    width: 280px;
+  }
+  .leftButtons > button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}

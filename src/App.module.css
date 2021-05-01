@@ -1,6 +1,6 @@
 .root {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,4 +15,20 @@
 .developer {
   color: white;
   margin-top: 20px;
+}
+
+/* Table View */
+@media (max-width: 768px) {
+  .key {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 414px) {
+  .key {
+    height: 40px;
+    width: 40px;
+  }
 }
